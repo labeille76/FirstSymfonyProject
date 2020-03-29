@@ -1,0 +1,69 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ArticleController!{% endblock %}
+
+{% block body %}
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('img/post-bg.jpg')">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="post-heading">
+                        <h1>{{ article.getTitle() }}</h1>
+                        <h2 class="subheading">{{ article.getSubtitle() }}</h2>
+                        <span class="meta">Posted by
+              <a href="#">{{ article.getAuthor() }}</a>
+              on {{ article.getCreatedAt().format('Y-m-d') }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    {{ article.getBody() }}
+                </div>
+            </div>
+        </div>
+    </article>
+    <hr>
+
+    <div class="container">
+        <div class="row">
+            <h3 class="col-lg-8 col-md-10 mx-auto">{{ article.getComments().count() }} Comments</h3>
+        </div>
+
+        <!-- Comments Form -->
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="card my-4">
+                <h5 class="card-header">Leave a Comment:</h5>
+                <div class="card-body">
+                    {% form_theme commentForm 'bootstrap_4_layout.html.twig' %}
+                    {{ form_start(commentForm) }}
+                    {{ form_row(commentForm.name) }}
+                    {{ form_row(commentForm.email) }}
+                    {{ form_row(commentForm.comment) }}
+                        <button type="submit" class="btn btn-secondary">Submit</button>
+                    {{ form_end(commentForm) }}
+                </div>
+            </div>
+        </div>
+
+        <!-- Comments Area -->
+        {% for c in article.getComments() %}
+            <div class="row">
+                <div class="media mb-4 mt-4 col-lg-8 col-md-10 mx-auto">
+                    <div class="media-body">
+                        <h5 class="mt-0">{{ c.getName() }} <small>{{ c.getCreatedAt().format('Y-m-d') }}</small></h5>
+                        <blockquote>{{ c.getComment() }}</blockquote>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

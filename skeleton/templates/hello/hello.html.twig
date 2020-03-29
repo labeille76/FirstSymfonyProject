@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    {% if user.name is not defined %}
+        <h1>Hello</h1>
+    {% else %}
+        <h1>Hello {{ user.name }}</h1>
+    {% endif %}
+
+    <ul>
+    {% for value in user %}
+        <li>{{ value }}</li>
+    {% endfor %}
+    </ul>
+
+{% endblock %}

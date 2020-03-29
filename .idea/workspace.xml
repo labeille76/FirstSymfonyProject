@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30f5f90c-2a78-40e5-a03e-4eaf8ea27d54" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/skeleton/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/skeleton/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/composer" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/twig-pack" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/orm-pack" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/skeleton/vendor/symfony/validator" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1YkY1BFAZ4w7NUJx251Wq0KPyZb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30f5f90c-2a78-40e5-a03e-4eaf8ea27d54" name="Default Changelist" comment="" />
+      <created>1583487841664</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583487841664</updated>
+      <workItem from="1583487843110" duration="5154000" />
+      <workItem from="1584973008451" duration="729000" />
+      <workItem from="1584974013491" duration="51000" />
+      <workItem from="1584976200574" duration="41000" />
+      <workItem from="1584976269101" duration="520000" />
+      <workItem from="1584976882045" duration="488000" />
+      <workItem from="1584977448144" duration="151000" />
+      <workItem from="1584978168286" duration="4270000" />
+      <workItem from="1584982472338" duration="2836000" />
+      <workItem from="1585042601847" duration="6034000" />
+      <workItem from="1585472242542" duration="5352000" />
+      <workItem from="1585478500231" duration="11403000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585044118039">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1585044118039" />
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585486422233">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1585486422233" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1583490122663">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1583490122663" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585478543280">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585478543280" />
+  </component>
+</project>
